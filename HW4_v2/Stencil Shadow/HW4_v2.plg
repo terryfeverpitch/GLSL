@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HW4_v2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSP810A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/HW4_v2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Programming\CG Projects\GLSL\HW4_v2\Stencil Shadow\Food.cpp"
+"D:\Programming\CG Projects\GLSL\HW4_v2\Stencil Shadow\source.cpp"
+"D:\Programming\CG Projects\GLSL\HW4_v2\Stencil Shadow\stencil_shadow.cpp"
+]
+Creating command line "cl.exe @C:\Users\Terry\AppData\Local\Temp\RSP810A.tmp" 
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSP810B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/HW4_v2.pdb" /debug /machine:I386 /out:"Debug/HW4_v2.exe" /pdbtype:sept 
+".\Debug\Food.obj"
+".\Debug\source.obj"
+".\Debug\stencil_shadow.obj"
+]
+Creating command line "link.exe @C:\Users\Terry\AppData\Local\Temp\RSP810B.tmp"
+<h3>Output Window</h3>
+Compiling...
+Food.cpp
+source.cpp
+stencil_shadow.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+HW4_v2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

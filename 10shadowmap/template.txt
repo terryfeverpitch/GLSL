@@ -1,0 +1,43 @@
+//#include <gl/glew.h>
+#include <gl/glut.h>
+
+/////////////////////////////////////////////////////////////
+// scene related API
+//extern void DrawScene ();
+//extern void initScene(int);  // pass shader program 
+//                             // (for setting scene-related uniform variables)
+//extern void scene_timer();
+//extern void scene_keys (unsigned char);
+//extern void get_scene_light_pos (float*);
+////////////////////////////////////////////////////////////
+
+static float lightPosition[4] = {-3.0, 3.0, 3.0, 1.0};
+static int texedobjloc;
+
+void initScene (int program)
+{
+
+    texedobjloc = glGetUniformLocation (program, "textured_object");  
+}
+
+void DrawScene()
+{
+    // glUniform1i (texedobjloc, 1);  // for textured objects
+    // glUniform1i (texedobjloc, 0); for un-textured objects: 	
+}
+
+void scene_timer ()
+{
+
+}
+void scene_keys (unsigned char key)
+{
+    switch (key) {
+    }
+}
+
+void get_scene_light_pos (float* pos)
+{
+    for (int i = 0; i < 4; i++)
+	pos[i] = lightPosition[i];
+}

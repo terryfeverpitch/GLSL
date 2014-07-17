@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MRT - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSPF408.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/MRT.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Programming\CG Projects\GLSL\multi-render-target\FBO Example.cpp"
+]
+Creating command line "cl.exe @C:\Users\Terry\AppData\Local\Temp\RSPF408.tmp" 
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSPF409.tmp" with contents
+[
+glpngd.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/MRT.pdb" /debug /machine:I386 /out:"Debug/MRT.exe" /pdbtype:sept 
+".\Debug\FBO Example.obj"
+".\Debug\helper.obj"
+".\Debug\MRT.obj"
+]
+Creating command line "link.exe @C:\Users\Terry\AppData\Local\Temp\RSPF409.tmp"
+<h3>Output Window</h3>
+Compiling...
+FBO Example.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+MRT.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

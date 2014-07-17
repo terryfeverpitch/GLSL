@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: yoshi0 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSPB42E.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/yoshi0.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Programming\CG Projects\GLSL\helper\yoshi0.cpp"
+]
+Creating command line "cl.exe @C:\Users\Terry\AppData\Local\Temp\RSPB42E.tmp" 
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSPB42F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/yoshi0.pdb" /debug /machine:I386 /out:"Debug/yoshi0.exe" /pdbtype:sept 
+".\Debug\teapot.obj"
+".\Debug\yoshi0.obj"
+]
+Creating command line "link.exe @C:\Users\Terry\AppData\Local\Temp\RSPB42F.tmp"
+<h3>Output Window</h3>
+Compiling...
+yoshi0.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+yoshi0.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: texturing - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSPF33F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/texturing.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Programming\CG Projects\GLSL\texturing\helper.cpp"
+"D:\Programming\CG Projects\GLSL\texturing\texturing.cpp"
+]
+Creating command line "cl.exe @C:\Users\Terry\AppData\Local\Temp\RSPF33F.tmp" 
+Creating temporary file "C:\Users\Terry\AppData\Local\Temp\RSPF340.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/texturing.pdb" /debug /machine:I386 /out:"Debug/texturing.exe" /pdbtype:sept 
+".\Debug\helper.obj"
+".\Debug\texturing.obj"
+]
+Creating command line "link.exe @C:\Users\Terry\AppData\Local\Temp\RSPF340.tmp"
+<h3>Output Window</h3>
+Compiling...
+helper.cpp
+texturing.cpp
+d:\programming\cg projects\glsl\texturing\texturing.cpp(54) : warning C4554: '^' : check operator precedence for possible error; use parentheses to clarify precedence
+Linking...
+
+
+
+<h3>Results</h3>
+texturing.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
